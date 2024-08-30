@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<goosePdu>
+    <IP></IP>
+    <dataset inter ="Iec-Tc57_04:00:02"
+             Source = "00:50:c2:4f:98:fa"
+             Destination = "01:0c:cd:04:00:02"
+             gocbRef = "ENMU_101IO/LLN0$GO$gcb01"
+             goID = "NGrid_cable_4"
+             numDatSetEntries = "15"
+             time="true" quality="true">
+        <Data   type = "Boolean"  />
+        <Data   type = "Boolean"  />
+        <Data   type = "Boolean"  />
+        <Data   type = "Boolean"  />
+        <Data   type = "Boolean"  />
+        <Data   type = "bit-string" />
+        <Data   type = "integer" />
+    </dataset>
+
+</goosePdu>
