@@ -2,12 +2,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 import java.nio.charset.StandardCharsets;
-import java.time.Instant;
-import java.time.ZoneOffset;
-import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.TimeZone;
 
 @Getter @Setter
 public class GooseFrame {
@@ -146,35 +144,67 @@ public class GooseFrame {
         return mac.toString();
     }
 
-    // Метод для отладки
-//    private static String bytesToHex(byte[] bytes, int offset, int length) {
-//        StringBuilder sb = new StringBuilder();
-//        for (int i = offset; i < offset + length; i++) {
-//            sb.append(String.format("%02X ", bytes[i]));
-//        }
-//        return sb.toString();
+//    private void parseTimestamp(byte[] gooseFrame, int index) {
+//        ByteBuffer buffer = ByteBuffer.wrap(gooseFrame, index, 8);
+//        buffer.order(ByteOrder.BIG_ENDIAN);  // Убедитесь, что порядок байтов правильный
+//        long nanosSinceEpoch = buffer.getLong();
+//
+//        Instant instant = Instant.ofEpochSecond(0, nanosSinceEpoch);
+//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm:ss.nnnnnnnnn 'UTC'")
+//                .withZone(ZoneOffset.UTC);
+//
+//        this.timestamp = formatter.format(instant);
+//
+//        // Вывод в байтах 16 для отладки
+//        //this.timestamp = Arrays.toString(convertToHex(Arrays.copyOfRange(gooseFrame, index, index + 8)));
 //    }
 
-
     private void parseTimestamp(byte[] gooseFrame, int index) {
-        ByteBuffer buffer = ByteBuffer.wrap(gooseFrame, index, 8);
-        buffer.order(ByteOrder.BIG_ENDIAN);  // Убедитесь, что порядок байтов правильный
-        long nanosSinceEpoch = buffer.getLong();
+        byte[] timeData = Arrays.copyOfRange(gooseFrame, index, index + 8);
 
-        Instant instant = Instant.ofEpochSecond(0, nanosSinceEpoch);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm:ss.nnnnnnnnn 'UTC'")
-                .withZone(ZoneOffset.UTC);
-        this.timestamp = formatter.format(instant);
+        // Первые 4 байта — количество секунд с 01.01.1970
+        ByteBuffer buffer = ByteBuffer.wrap(timeData, 0, 4);
+        long secondsSinceEpoch = buffer.getInt() & 0xFFFFFFFFL;
+
+        // Следующие 3 байта — дробная часть
+        int fractionalPart = ((timeData[4] & 0xFF) << 16)
+                | ((timeData[5] & 0xFF) << 8)
+                | (timeData[6] & 0xFF);
+        double fractionalSeconds = fractionalPart / (double) (1 << 24);
+
+        // Последний байт — информация о качестве
+        byte qualityByte = timeData[7];
+        String qualityInfo = decodeQuality(qualityByte);
+
+        // Получаем итоговое время с учетом дробной части
+        double totalTime = secondsSinceEpoch + fractionalSeconds;
+
+        // Преобразуем секунды с эпохи в календарное время
+        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
+        calendar.setTimeInMillis((long) (totalTime * 1000));
+
+        // Форматируем результат
+        String timestamp = String.format("%1$tb %1$td, %1$tY %1$tH:%1$tM:%1$tS.%2$09d UTC", calendar, (int)(fractionalSeconds * 1_000_000_000L));
+        this.timestamp = String.format("Timestamp: %s, Quality: %s", timestamp, qualityInfo);
+    }
+
+    private static String decodeQuality(byte qualityByte) {
+        StringBuilder quality = new StringBuilder();
+
+        quality.append("Leap Second Known: ").append((qualityByte & 0x80) != 0).append(", ");
+        quality.append("Clock Failure: ").append((qualityByte & 0x40) == 0).append(", ");
+        quality.append("Clock Synchronized: ").append((qualityByte & 0x20) == 0).append(", ");
+        quality.append("Accuracy Bits: ").append(String.format("%05d", qualityByte & 0x1F));
+
+        return quality.toString();
     }
 
     public static String[] convertToHex(byte[] decimalBytes) {
         String[] hexArray = new String[decimalBytes.length];
-
         for (int i = 0; i < decimalBytes.length; i++) {
             // Преобразование каждого байта в шестнадцатеричную строку
             hexArray[i] = String.format("%02X", decimalBytes[i]);
         }
-
         return hexArray;
     }
 
