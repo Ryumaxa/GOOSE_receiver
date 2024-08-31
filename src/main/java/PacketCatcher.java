@@ -4,8 +4,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.pcap4j.core.*;
 import org.pcap4j.packet.Packet;
 
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
@@ -81,38 +79,27 @@ public class PacketCatcher {
         }
     }
 
-//    private void initializeNetworkInterface() throws PcapNativeException {
-//        Optional<PcapNetworkInterface> nic = Pcaps.findAllDevs().stream()
-//                .filter(i -> nicName.equals(i.getDescription()))
-//                .findFirst();
-//        if (nic.isPresent()) {
-//            handle = nic.get().openLive(1500, PcapNetworkInterface.PromiscuousMode.PROMISCUOUS, 10);
-//            log.info("Network Handler created: {}", nic);
-//        } else {
-//            log.error("Network interface not found");
-//        }
-//    }
 
-    private static void writeToFile(GooseFrame gooseFrame) throws IOException {
-        PrintWriter writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
-        writer.println("Destination         :    " + gooseFrame.getDestination());
-        writer.println("Source              :    " + gooseFrame.getSource());
-        writer.println("Interface           :    " + gooseFrame.getInter());
-        writer.println("GocbRef             :    " + gooseFrame.getGocbRef());
-        writer.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
-        writer.println("DatSet              :    " + gooseFrame.getDatSet());
-        writer.println("GoID                :    " + gooseFrame.getGoID());
-        //timestamp
-        writer.println("StNum               :    " + gooseFrame.getStNum());
-        writer.println("SqNum               :    " + gooseFrame.getSqNum());
-        //confRev
-        //ndsCom
-        writer.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
-        for (AllData dataPart: gooseFrame.getAllData()) {
-            writer.println(dataPart.getType() + "   :   " + dataPart.getValue());
-        }
-        writer.close();
-    }
+//    private static void writeToFile(GooseFrame gooseFrame) throws IOException {
+//        PrintWriter writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
+//        writer.println("Destination         :    " + gooseFrame.getDestination());
+//        writer.println("Source              :    " + gooseFrame.getSource());
+//        writer.println("Interface           :    " + gooseFrame.getInter());
+//        writer.println("GocbRef             :    " + gooseFrame.getGocbRef());
+//        writer.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
+//        writer.println("DatSet              :    " + gooseFrame.getDatSet());
+//        writer.println("GoID                :    " + gooseFrame.getGoID());
+//        //timestamp
+//        writer.println("StNum               :    " + gooseFrame.getStNum());
+//        writer.println("SqNum               :    " + gooseFrame.getSqNum());
+//        //confRev
+//        //ndsCom
+//        writer.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
+//        for (AllData dataPart: gooseFrame.getAllData()) {
+//            writer.println(dataPart.getType() + "   :   " + dataPart.getValue());
+//        }
+//        writer.close();
+//    }
 
     private static void writeToConsole(GooseFrame gooseFrame) {
         System.out.println("Destination         :    " + gooseFrame.getDestination());
@@ -157,8 +144,8 @@ public class PacketCatcher {
         System.out.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
         System.out.println();
 
-        for (AllData dataPart: gooseFrame.getAllData()) {
-            System.out.println(dataPart.getType() + "   :   " + dataPart.getValue());
+        for (Data data: gooseFrame.getAllData().getAllData()) {
+            System.out.println(data.getType() + "   :   " + data.getValue());
         }
     }
 
@@ -177,9 +164,6 @@ public class PacketCatcher {
                 System.out.println();
                 System.out.println();
             }
-
-
-            //System.out.println(Arrays.toString(data));
         } catch (Exception e) {log.error("Cannot parse goose frame");}
     }
 

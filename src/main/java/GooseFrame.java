@@ -7,9 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.Instant;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 @Getter @Setter
 public class GooseFrame {
@@ -28,11 +26,11 @@ public class GooseFrame {
     private int confRev;
     private boolean ndsCom;
     private int numDatSetEntries;
-    private List<AllData> allData;
+    private AllData allData;
 
     // Конструктор по умолчанию
     public GooseFrame() {
-        this.allData = new ArrayList<>();
+        this.allData = new AllData();
     }
 
     // Метод для парсинга GOOSE-фрейма
@@ -41,7 +39,6 @@ public class GooseFrame {
 
         // Остановить парсинг, если устройство не подписано
         if (!parseMacAddress(gooseFrame, index).equals("01:0C:CD:04:00:22")) {
-        //if (!parseMacAddress(gooseFrame, index).equals("01:0C:CD:04:00:03")) {
             return;
         }
 
@@ -58,7 +55,7 @@ public class GooseFrame {
         index += 2;
 
 
-        // Парсинг данных GOOSE PDU (например, gocbRef, timeAllowedToLive, datSet и т.д.)
+        // Парсинг данных GOOSE PDU
         // Это основная часть обработки
         while (index < gooseFrame.length) {
             int tag = gooseFrame[index++] & 0xFF;
@@ -81,85 +78,58 @@ public class GooseFrame {
                     index += 11; // Разобраться с костылем
                     length = length - 10; // Разобраться с костылем
                     this.gocbRef = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-                    // Отладка
-//                    this.gocbRef = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-//                    this.gocbRef = Arrays.toString(this.gocbRef.getBytes(StandardCharsets.UTF_8));
                     break;
-                case 0x81:
-//                    this.timeAllowedToLive = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
 
+                case 0x81:
                     // Колхоз, но работает (попробовать сдлать гибче и универсальнее)
                     if (gooseFrame[index-1] == 2) {
                         this.timeAllowedToLive = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
                     } else {
                         this.timeAllowedToLive = gooseFrame[index];
                     }
-
-
                     break;
+
                 case 0x82:
                     this.datSet = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-//                    this.datSet = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-//                    this.datSet = Arrays.toString(this.datSet.getBytes(StandardCharsets.UTF_8));
                     break;
+
                 case 0x83:
                     this.goID = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
                     break;
+
                 case 0x84:
                     parseTimestamp(gooseFrame, index);
-                    //Отладка
-//                    this.timestamp = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-//                    this.timestamp = Arrays.toString(this.timestamp.getBytes(StandardCharsets.UTF_8));
                     break;
-                case 0x85:
-//                    this.stNum = ((gooseFrame[index] & 0xFF) << 24) |
-//                            ((gooseFrame[index + 1] & 0xFF) << 16) |
-//                            ((gooseFrame[index + 2] & 0xFF) << 8) |
-//                            (gooseFrame[index + 3] & 0xFF);
-                    this.stNum = ((gooseFrame[index] & 0xFF) << 8) |
-                            (gooseFrame[index + 1] & 0xFF);
-                    //this.stNum = ByteBuffer.wrap(gooseFrame, index, 4).order(ByteOrder.BIG_ENDIAN).getInt();
-//                    this.stNum = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
-//                    this.stNum = Arrays.toString(this.stNum.getBytes(StandardCharsets.UTF_8));
-                    break;
-                case 0x86:
-//                    this.sqNum = ((gooseFrame[index] & 0xFF) << 24) |
-//                            ((gooseFrame[index + 1] & 0xFF) << 16) |
-//                            ((gooseFrame[index + 2] & 0xFF) << 8) |
-//                            (gooseFrame[index + 3] & 0xFF);
-                    this.sqNum = gooseFrame[index] & 0xFF;
-                    //this.sqNum = ByteBuffer.wrap(gooseFrame, index, 4).order(ByteOrder.BIG_ENDIAN).getInt();
 
+                case 0x85:
+                    this.stNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
                     break;
+
+                case 0x86:
+                    this.sqNum = gooseFrame[index] & 0xFF;
+                    break;
+
                 case 0x87:
                     this.simulation = (gooseFrame[index] & 0xFF) != 0;
                     break;
-                case 0x88:
-//                    this.confRev = ((gooseFrame[index] & 0xFF) << 24) |
-//                            ((gooseFrame[index + 1] & 0xFF) << 16) |
-//                            ((gooseFrame[index + 2] & 0xFF) << 8) |
-//                            (gooseFrame[index + 3] & 0xFF);
-                    this.confRev = gooseFrame[index] & 0xFF;
-//                    this.confRev = ByteBuffer.wrap(gooseFrame, index, 4).order(ByteOrder.BIG_ENDIAN).getInt();
 
+                case 0x88:
+                    this.confRev = gooseFrame[index] & 0xFF;
                     break;
+
                 case 0x89:
                     this.ndsCom = (gooseFrame[index] & 0xFF) != 0;
                     break;
+
                 case 0x8A:
                     this.numDatSetEntries = gooseFrame[index] & 0xFF;
                     break;
-                case 0xAB:
-                    // Обработка AllData (этот пример зависит от структуры AllData)
-                    AllData data = new AllData();
-//                    for (int i = 0; i < this.numDatSetEntries; i++) {
-//
-//                    }
-                    data.parse(gooseFrame, index, length);  // Предполагаем, что в AllData есть метод parse
-                    this.allData.add(data);
+
+                case 0xAB: // тут занимаемся датой
+                    this.allData.parse(Arrays.copyOfRange(gooseFrame, index, index + length));
                     break;
+
                 default:
-                    // Пропустить неизвестный тег
                     break;
             }
 
@@ -177,13 +147,13 @@ public class GooseFrame {
     }
 
     // Метод для отладки
-    private static String bytesToHex(byte[] bytes, int offset, int length) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = offset; i < offset + length; i++) {
-            sb.append(String.format("%02X ", bytes[i]));
-        }
-        return sb.toString();
-    }
+//    private static String bytesToHex(byte[] bytes, int offset, int length) {
+//        StringBuilder sb = new StringBuilder();
+//        for (int i = offset; i < offset + length; i++) {
+//            sb.append(String.format("%02X ", bytes[i]));
+//        }
+//        return sb.toString();
+//    }
 
 
     private void parseTimestamp(byte[] gooseFrame, int index) {
