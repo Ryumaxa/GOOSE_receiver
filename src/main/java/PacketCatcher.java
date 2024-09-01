@@ -105,6 +105,7 @@ public class PacketCatcher {
         System.out.println("Destination         :    " + gooseFrame.getDestination());
         System.out.println("Source              :    " + gooseFrame.getSource());
         System.out.println("Interface           :    " + gooseFrame.getInter());
+        System.out.println("Length              :    " + gooseFrame.getFrameLength());
         System.out.println();
 
         System.out.println("GocbRef             :    " + gooseFrame.getGocbRef());
@@ -156,7 +157,7 @@ public class PacketCatcher {
             GooseFrame gooseFrame = new GooseFrame();
             gooseFrame.parseGooseFrame(data);
 
-            if (gooseFrame.getDestination() != null) {
+            if (gooseFrame.getSource() != null) {
                 writeToConsole(gooseFrame);
                 System.out.println(Arrays.toString(GooseFrame.convertToHex(data)));
                 System.out.println();

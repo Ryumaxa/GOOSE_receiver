@@ -25,6 +25,7 @@ public class GooseFrame {
     private boolean ndsCom;
     private int numDatSetEntries;
     private AllData allData;
+    private int frameLength;
 
     // Конструктор по умолчанию
     public GooseFrame() {
@@ -35,14 +36,14 @@ public class GooseFrame {
     public void parseGooseFrame(byte[] gooseFrame) {
         int index = 0;
 
-        // Остановить парсинг, если устройство не подписано
-        if (!parseMacAddress(gooseFrame, index).equals("01:0C:CD:04:00:22")) {
-            return;
-        }
-
         // 1. MAC адрес назначения (6 байт)
         this.destination = parseMacAddress(gooseFrame, index);
         index += 6;
+
+        // Фильтр по адресу назначения (изменить на Source)
+//        if (!(this.destination.equals("01:0C:CD:04:00:21") || this.destination.equals("01:0C:CD:04:00:22"))) {
+//            return;
+//        }
 
         // 2. MAC адрес источника (6 байт)
         this.source = parseMacAddress(gooseFrame, index);
@@ -52,6 +53,21 @@ public class GooseFrame {
         this.inter = String.format("%04x", ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF));
         index += 2;
 
+//        //APPID
+//        index += 2;
+//
+//        //Frame Length
+//        this.frameLength = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
+//        index += 2;
+//
+//        // Reserved 1
+//        index += 2;
+//
+//        // Reserved 2
+//        index += 2;
+//
+//        //Unknown bits
+//        index += 3;
 
         // Парсинг данных GOOSE PDU
         // Это основная часть обработки
@@ -74,7 +90,7 @@ public class GooseFrame {
             switch (tag) {
                 case 0x80:
                     index += 11; // Разобраться с костылем
-                    length = length - 10; // Разобраться с костылем
+                    length = 24; // Разобраться с костылем
                     this.gocbRef = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
                     break;
 
@@ -143,21 +159,6 @@ public class GooseFrame {
         }
         return mac.toString();
     }
-
-//    private void parseTimestamp(byte[] gooseFrame, int index) {
-//        ByteBuffer buffer = ByteBuffer.wrap(gooseFrame, index, 8);
-//        buffer.order(ByteOrder.BIG_ENDIAN);  // Убедитесь, что порядок байтов правильный
-//        long nanosSinceEpoch = buffer.getLong();
-//
-//        Instant instant = Instant.ofEpochSecond(0, nanosSinceEpoch);
-//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy HH:mm:ss.nnnnnnnnn 'UTC'")
-//                .withZone(ZoneOffset.UTC);
-//
-//        this.timestamp = formatter.format(instant);
-//
-//        // Вывод в байтах 16 для отладки
-//        //this.timestamp = Arrays.toString(convertToHex(Arrays.copyOfRange(gooseFrame, index, index + 8)));
-//    }
 
     private void parseTimestamp(byte[] gooseFrame, int index) {
         byte[] timeData = Arrays.copyOfRange(gooseFrame, index, index + 8);
