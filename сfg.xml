@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <networkInterface>awdl0</networkInterface>
+    <source>00:50:C2:4F:98:FA</source>
+</config>

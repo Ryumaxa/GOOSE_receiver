@@ -19,8 +19,10 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class PacketCatcher {
 
     private PrintWriter writer;
+    private String sourceAddress;
 
-    public PacketCatcher() {
+    public PacketCatcher(String sourceAddress) {
+        this.sourceAddress = sourceAddress;
         try {
             writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
         } catch (IOException e) {
@@ -204,7 +206,7 @@ public class PacketCatcher {
         try {
             byte[] data = packet.getRawData();
 
-            GooseFrame gooseFrame = new GooseFrame("00:50:C2:4F:98:FA");
+            GooseFrame gooseFrame = new GooseFrame(sourceAddress);
             gooseFrame.parseGooseFrame(data);
 
             if (gooseFrame.getSource() != null) {

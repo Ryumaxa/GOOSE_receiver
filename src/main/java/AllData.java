@@ -41,7 +41,6 @@ public class AllData {
                     StringBuilder bitString = getStringBuilder(rawData, index, length);
 
                     this.allData.add(new Data("String", bitString.toString()));
-//                    this.allData.add(new Data("String", new String(rawData, index+1, length-1, StandardCharsets.UTF_8)));
                     break;
 
                 case 0x85:

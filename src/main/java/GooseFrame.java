@@ -99,7 +99,6 @@ public class GooseFrame {
                     break;
 
                 case 0x81:
-                    // Колхоз, но работает (попробовать сдлать гибче и универсальнее)
                     if (gooseFrame[index-1] == 2) {
                         this.timeAllowedToLive = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
                     } else {
@@ -125,7 +124,6 @@ public class GooseFrame {
                     } else {
                         this.stNum = gooseFrame[index];
                     }
-//                    this.stNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
                     break;
 
                 case 0x86:
@@ -134,7 +132,6 @@ public class GooseFrame {
                     } else {
                         this.sqNum = gooseFrame[index];
                     }
-//                    this.sqNum = gooseFrame[index] & 0xFF;
                     break;
 
                 case 0x87:
@@ -153,7 +150,7 @@ public class GooseFrame {
                     this.numDatSetEntries = gooseFrame[index] & 0xFF;
                     break;
 
-                case 0xAB: // тут занимаемся датой
+                case 0xAB:
                     this.allData.parse(Arrays.copyOfRange(gooseFrame, index, index + length));
                     break;
 
