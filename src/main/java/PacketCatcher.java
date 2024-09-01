@@ -4,6 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.pcap4j.core.*;
 import org.pcap4j.packet.Packet;
 
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
@@ -15,6 +17,16 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Getter
 @Setter
 public class PacketCatcher {
+
+    private PrintWriter writer;
+
+    public PacketCatcher() {
+        try {
+            writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            log.error("Failed to open file for writing", e);
+        }
+    }
 
     /**
      * Статический блок инициализации
@@ -58,11 +70,12 @@ public class PacketCatcher {
                         handle.loop(0, defaultPacketListener);
                     } catch (PcapNativeException | InterruptedException | NotOpenException e) {
                         throw new RuntimeException(e);
+                    } finally {
+                        closeWriter();
                     }
                     log.info("Packet capture finished");
                 });
                 captureThread.start();
-
             }
         }
     }
@@ -80,32 +93,69 @@ public class PacketCatcher {
     }
 
 
-//    private static void writeToFile(GooseFrame gooseFrame) throws IOException {
+    private void writeToFile(GooseFrame gooseFrame) {
 //        PrintWriter writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
-//        writer.println("Destination         :    " + gooseFrame.getDestination());
-//        writer.println("Source              :    " + gooseFrame.getSource());
-//        writer.println("Interface           :    " + gooseFrame.getInter());
-//        writer.println("GocbRef             :    " + gooseFrame.getGocbRef());
-//        writer.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
-//        writer.println("DatSet              :    " + gooseFrame.getDatSet());
-//        writer.println("GoID                :    " + gooseFrame.getGoID());
-//        //timestamp
-//        writer.println("StNum               :    " + gooseFrame.getStNum());
-//        writer.println("SqNum               :    " + gooseFrame.getSqNum());
-//        //confRev
-//        //ndsCom
-//        writer.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
-//        for (AllData dataPart: gooseFrame.getAllData()) {
-//            writer.println(dataPart.getType() + "   :   " + dataPart.getValue());
-//        }
-//        writer.close();
-//    }
+        writer.println("Destination         :    " + gooseFrame.getDestination());
+        writer.println("Source              :    " + gooseFrame.getSource());
+        writer.println("Interface           :    " + gooseFrame.getInter());
+//        writer.println("Length              :    " + gooseFrame.getFrameLength());
+        writer.println();
+
+        writer.println("GocbRef             :    " + gooseFrame.getGocbRef());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGocbRef().getBytes(StandardCharsets.UTF_8))));
+        writer.println();
+
+        writer.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getTimeAllowedToLive()).array())));
+        writer.println();
+
+        writer.println("DatSet              :    " + gooseFrame.getDatSet());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getDatSet().getBytes(StandardCharsets.UTF_8))));
+        writer.println();
+
+        writer.println("GoID                :    " + gooseFrame.getGoID());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGoID().getBytes(StandardCharsets.UTF_8))));
+        writer.println();
+
+        writer.println("Timestamp           :    " + gooseFrame.getTimestamp());
+        writer.println();
+
+        writer.println("StNum               :    " + gooseFrame.getStNum());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getStNum()).array())));
+        writer.println();
+
+        writer.println("SqNum               :    " + gooseFrame.getSqNum());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getSqNum()).array())));
+        writer.println();
+
+        writer.println("ConfRev             :    " + gooseFrame.getConfRev());
+        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getConfRev()).array())));
+        writer.println();
+
+        writer.println("NdsCom              :    " + gooseFrame.isNdsCom());
+        writer.println();
+
+        writer.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
+        writer.println();
+
+        for (Data data: gooseFrame.getAllData().getAllData()) {
+            writer.println(data.getType() + "   :   " + data.getValue());
+        }
+
+        writer.flush();
+    }
+
+    public void closeWriter() {
+        if (writer != null) {
+            writer.close();
+        }
+    }
 
     private static void writeToConsole(GooseFrame gooseFrame) {
         System.out.println("Destination         :    " + gooseFrame.getDestination());
         System.out.println("Source              :    " + gooseFrame.getSource());
         System.out.println("Interface           :    " + gooseFrame.getInter());
-        System.out.println("Length              :    " + gooseFrame.getFrameLength());
+//        System.out.println("Length              :    " + gooseFrame.getFrameLength());
         System.out.println();
 
         System.out.println("GocbRef             :    " + gooseFrame.getGocbRef());
@@ -154,11 +204,12 @@ public class PacketCatcher {
         try {
             byte[] data = packet.getRawData();
 
-            GooseFrame gooseFrame = new GooseFrame();
+            GooseFrame gooseFrame = new GooseFrame("00:50:C2:4F:98:FA");
             gooseFrame.parseGooseFrame(data);
 
             if (gooseFrame.getSource() != null) {
                 writeToConsole(gooseFrame);
+                writeToFile(gooseFrame);
                 System.out.println(Arrays.toString(GooseFrame.convertToHex(data)));
                 System.out.println();
                 System.out.println();
@@ -167,5 +218,4 @@ public class PacketCatcher {
             }
         } catch (Exception e) {log.error("Cannot parse goose frame");}
     }
-
 }

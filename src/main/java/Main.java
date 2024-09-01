@@ -7,6 +7,5 @@ public class Main {
         PacketCatcher packetCatcher = new PacketCatcher();
         packetCatcher.setNicName("awdl0");
         packetCatcher.process();
-
     }
 }

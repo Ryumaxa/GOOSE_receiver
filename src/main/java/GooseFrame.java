@@ -27,9 +27,12 @@ public class GooseFrame {
     private AllData allData;
     private int frameLength;
 
+    private String sourceAddress;
+
     // Конструктор по умолчанию
-    public GooseFrame() {
+    public GooseFrame(String sourceAddress) {
         this.allData = new AllData();
+        this.sourceAddress = sourceAddress;
     }
 
     // Метод для парсинга GOOSE-фрейма
@@ -40,14 +43,15 @@ public class GooseFrame {
         this.destination = parseMacAddress(gooseFrame, index);
         index += 6;
 
-        // Фильтр по адресу назначения (изменить на Source)
-//        if (!(this.destination.equals("01:0C:CD:04:00:21") || this.destination.equals("01:0C:CD:04:00:22"))) {
-//            return;
-//        }
-
         // 2. MAC адрес источника (6 байт)
         this.source = parseMacAddress(gooseFrame, index);
         index += 6;
+
+        // Фильтр по адресу назначения (изменить на Source)
+        if (!(this.source.equals(sourceAddress))) {
+            this.source = null;
+            return;
+        }
 
         // 3. Тип EtherType (2 байта)
         this.inter = String.format("%04x", ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF));
@@ -58,7 +62,7 @@ public class GooseFrame {
 //
 //        //Frame Length
 //        this.frameLength = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
-//        index += 2;
+//        index -= 2;
 //
 //        // Reserved 1
 //        index += 2;
@@ -116,11 +120,21 @@ public class GooseFrame {
                     break;
 
                 case 0x85:
-                    this.stNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
+                    if (gooseFrame[index-1] == 2) {
+                        this.stNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
+                    } else {
+                        this.stNum = gooseFrame[index];
+                    }
+//                    this.stNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
                     break;
 
                 case 0x86:
-                    this.sqNum = gooseFrame[index] & 0xFF;
+                    if (gooseFrame[index-1] == 2) {
+                        this.sqNum = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
+                    } else {
+                        this.sqNum = gooseFrame[index];
+                    }
+//                    this.sqNum = gooseFrame[index] & 0xFF;
                     break;
 
                 case 0x87:
