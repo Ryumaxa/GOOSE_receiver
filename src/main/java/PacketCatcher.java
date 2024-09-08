@@ -6,23 +6,21 @@ import org.pcap4j.packet.Packet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-@Slf4j
-@Getter
-@Setter
+@Slf4j @Getter @Setter
 public class PacketCatcher {
 
     private PrintWriter writer;
     private String sourceAddress;
+    private SqNumCheck sqNumCheck;
 
     public PacketCatcher(String sourceAddress) {
         this.sourceAddress = sourceAddress;
+        sqNumCheck = new SqNumCheck();
         try {
             writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
         } catch (IOException e) {
@@ -96,53 +94,38 @@ public class PacketCatcher {
 
 
     private void writeToFile(GooseFrame gooseFrame) {
-//        PrintWriter writer = new PrintWriter("DecodedFrames.txt", StandardCharsets.UTF_8);
         writer.println("Destination         :    " + gooseFrame.getDestination());
         writer.println("Source              :    " + gooseFrame.getSource());
         writer.println("Interface           :    " + gooseFrame.getInter());
-//        writer.println("Length              :    " + gooseFrame.getFrameLength());
-        writer.println();
 
         writer.println("GocbRef             :    " + gooseFrame.getGocbRef());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGocbRef().getBytes(StandardCharsets.UTF_8))));
-        writer.println();
 
         writer.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getTimeAllowedToLive()).array())));
-        writer.println();
 
         writer.println("DatSet              :    " + gooseFrame.getDatSet());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getDatSet().getBytes(StandardCharsets.UTF_8))));
-        writer.println();
 
         writer.println("GoID                :    " + gooseFrame.getGoID());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGoID().getBytes(StandardCharsets.UTF_8))));
-        writer.println();
 
         writer.println("Timestamp           :    " + gooseFrame.getTimestamp());
-        writer.println();
 
         writer.println("StNum               :    " + gooseFrame.getStNum());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getStNum()).array())));
-        writer.println();
 
         writer.println("SqNum               :    " + gooseFrame.getSqNum());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getSqNum()).array())));
-        writer.println();
 
         writer.println("ConfRev             :    " + gooseFrame.getConfRev());
-        writer.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getConfRev()).array())));
-        writer.println();
 
         writer.println("NdsCom              :    " + gooseFrame.isNdsCom());
-        writer.println();
 
         writer.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
-        writer.println();
 
         for (Data data: gooseFrame.getAllData().getAllData()) {
             writer.println(data.getType() + "   :   " + data.getValue());
         }
+
+        writer.println();
+        writer.println();
+        writer.println();
+        writer.println();
 
         writer.flush();
     }
@@ -157,45 +140,26 @@ public class PacketCatcher {
         System.out.println("Destination         :    " + gooseFrame.getDestination());
         System.out.println("Source              :    " + gooseFrame.getSource());
         System.out.println("Interface           :    " + gooseFrame.getInter());
-//        System.out.println("Length              :    " + gooseFrame.getFrameLength());
-        System.out.println();
 
         System.out.println("GocbRef             :    " + gooseFrame.getGocbRef());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGocbRef().getBytes(StandardCharsets.UTF_8))));
-        System.out.println();
 
         System.out.println("TimeAllowedToLive   :    " + gooseFrame.getTimeAllowedToLive());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getTimeAllowedToLive()).array())));
-        System.out.println();
 
         System.out.println("DatSet              :    " + gooseFrame.getDatSet());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getDatSet().getBytes(StandardCharsets.UTF_8))));
-        System.out.println();
 
         System.out.println("GoID                :    " + gooseFrame.getGoID());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(gooseFrame.getGoID().getBytes(StandardCharsets.UTF_8))));
-        System.out.println();
 
         System.out.println("Timestamp           :    " + gooseFrame.getTimestamp());
-        System.out.println();
 
         System.out.println("StNum               :    " + gooseFrame.getStNum());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getStNum()).array())));
-        System.out.println();
 
         System.out.println("SqNum               :    " + gooseFrame.getSqNum());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getSqNum()).array())));
-        System.out.println();
 
         System.out.println("ConfRev             :    " + gooseFrame.getConfRev());
-        System.out.println("                         "+ Arrays.toString(GooseFrame.convertToHex(ByteBuffer.allocate(4).putInt(gooseFrame.getConfRev()).array())));
-        System.out.println();
 
         System.out.println("NdsCom              :    " + gooseFrame.isNdsCom());
-        System.out.println();
 
         System.out.println("NumDatSetEntries    :    " + gooseFrame.getNumDatSetEntries());
-        System.out.println();
 
         for (Data data: gooseFrame.getAllData().getAllData()) {
             System.out.println(data.getType() + "   :   " + data.getValue());
@@ -210,9 +174,9 @@ public class PacketCatcher {
             gooseFrame.parseGooseFrame(data);
 
             if (gooseFrame.getSource() != null) {
+                sqNumCheck.gapCheck(gooseFrame.getGoID(), gooseFrame.getSqNum());
                 writeToConsole(gooseFrame);
                 writeToFile(gooseFrame);
-                System.out.println(Arrays.toString(GooseFrame.convertToHex(data)));
                 System.out.println();
                 System.out.println();
                 System.out.println();

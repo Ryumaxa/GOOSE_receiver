@@ -1,34 +1,16 @@
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -44,37 +26,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -90,37 +58,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -136,37 +90,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -182,37 +122,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -228,37 +154,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -274,37 +186,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -320,37 +218,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -366,37 +250,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -412,37 +282,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -458,37 +314,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -504,37 +346,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -550,37 +378,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -596,37 +410,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -642,37 +442,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -688,37 +474,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -734,37 +506,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -780,37 +538,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -826,37 +570,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -872,37 +602,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -918,37 +634,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -964,37 +666,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026463 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
 StNum               :    21703
-                         [00, 00, 54, C7]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255637
@@ -1010,37 +698,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026821 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255637
@@ -1056,37 +730,23 @@ Integer   :   1647255637
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027358 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
 StNum               :    21682
-                         [00, 00, 54, B2]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255637
@@ -1102,37 +762,23 @@ Integer   :   1647255637
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255637
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1148,37 +794,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1194,37 +826,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    12
-                         [00, 00, 00, 0C]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    0
-                         [00, 00, 00, 00]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1240,37 +858,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1286,37 +890,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1332,37 +922,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    24
-                         [00, 00, 00, 18]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    1
-                         [00, 00, 00, 01]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1378,37 +954,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1424,37 +986,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1470,37 +1018,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    48
-                         [00, 00, 00, 30]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    2
-                         [00, 00, 00, 02]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1516,37 +1050,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1562,37 +1082,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1608,37 +1114,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    96
-                         [00, 00, 00, 60]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    3
-                         [00, 00, 00, 03]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1654,37 +1146,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1700,37 +1178,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1746,37 +1210,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    192
-                         [00, 00, 00, C0]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    4
-                         [00, 00, 00, 04]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1792,37 +1242,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1838,37 +1274,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -1884,37 +1306,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    384
-                         [00, 00, 01, 80]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    5
-                         [00, 00, 00, 05]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -1930,37 +1338,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -1976,37 +1370,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -2022,37 +1402,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    768
-                         [00, 00, 03, 00]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    6
-                         [00, 00, 00, 06]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -2068,37 +1434,23 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:01
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 37, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 37, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_3
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 33]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068842 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
 StNum               :    21704
-                         [00, 00, 54, C8]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   false
 String   :   1100000000000
 Integer   :   1647255638
@@ -2114,37 +1466,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:02
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 31, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 31, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_cable_4
-                         [4E, 47, 72, 69, 64, 5F, 63, 61, 62, 6C, 65, 5F, 34]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069319 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Boolean   :   true
 String   :   1100000000000
 Integer   :   1647255638
@@ -2160,37 +1498,23 @@ Integer   :   1647255638
 Boolean   :   false
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+
 Destination         :    01:0C:CD:04:00:03
 Source              :    00:50:C2:4F:98:FA
 Interface           :    88b8
-
 GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 47, 4F, 24, 67, 63, 62, 30, 31]
-
 TimeAllowedToLive   :    1500
-                         [00, 00, 05, DC]
-
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
-                         [45, 4E, 4D, 55, 5F, 31, 30, 34, 49, 4F, 2F, 4C, 4C, 4E, 30, 24, 4D, 55, 31, 30, 34, 5F, 64, 61, 74, 61, 73, 65, 74]
-
 GoID                :    NGrid_section_breaker
-                         [4E, 47, 72, 69, 64, 5F, 73, 65, 63, 74, 69, 6F, 6E, 5F, 62, 72, 65, 61, 6B, 65, 72]
-
-Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069736 UTC, Quality: Leap Second Known: false, Clock Failure: true, Clock Synchronized: true, Accuracy Bits: 00031
-
+Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
 StNum               :    21683
-                         [00, 00, 54, B3]
-
 SqNum               :    7
-                         [00, 00, 00, 07]
-
 ConfRev             :    1
-                         [00, 00, 00, 01]
-
 NdsCom              :    false
-
 NumDatSetEntries    :    15
-
 Integer   :   8651523
 String   :   1100000000000
 Integer   :   1647255638
@@ -2206,3 +1530,7 @@ Integer   :   1647255638
 Integer   :   8651523
 String   :   0000000000000
 Integer   :   1647255638
+
+
+
+

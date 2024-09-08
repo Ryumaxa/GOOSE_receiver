@@ -57,22 +57,6 @@ public class GooseFrame {
         this.inter = String.format("%04x", ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF));
         index += 2;
 
-//        //APPID
-//        index += 2;
-//
-//        //Frame Length
-//        this.frameLength = ((gooseFrame[index] & 0xFF) << 8) | (gooseFrame[index + 1] & 0xFF);
-//        index -= 2;
-//
-//        // Reserved 1
-//        index += 2;
-//
-//        // Reserved 2
-//        index += 2;
-//
-//        //Unknown bits
-//        index += 3;
-
         // Парсинг данных GOOSE PDU
         // Это основная часть обработки
         while (index < gooseFrame.length) {
@@ -93,8 +77,8 @@ public class GooseFrame {
 
             switch (tag) {
                 case 0x80:
-                    index += 11; // Разобраться с костылем
-                    length = 24; // Разобраться с костылем
+                    index += 11;
+                    length = 24;
                     this.gocbRef = new String(gooseFrame, index, length, StandardCharsets.UTF_8);
                     break;
 
@@ -197,7 +181,8 @@ public class GooseFrame {
 
         // Форматируем результат
         String timestamp = String.format("%1$tb %1$td, %1$tY %1$tH:%1$tM:%1$tS.%2$09d UTC", calendar, (int)(fractionalSeconds * 1_000_000_000L));
-        this.timestamp = String.format("Timestamp: %s, Quality: %s", timestamp, qualityInfo);
+        //this.timestamp = String.format("Timestamp: %s, Quality: %s", timestamp, qualityInfo);
+        this.timestamp = timestamp;
     }
 
     private static String decodeQuality(byte qualityByte) {
