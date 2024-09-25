@@ -3,11 +3,9 @@ import org.pcap4j.core.PcapNativeException;
 
 public class Main {
     public static void main(String[] args) throws NotOpenException, PcapNativeException {
-
-        Config config = ConfigReader.readConfig("сfg.xml");
-
-        PacketCatcher packetCatcher = new PacketCatcher(config.getSource());
-        packetCatcher.setNicName(config.getNetworkInterface());
+        ConfigReader configReader = new ConfigReader("cfg.xml");
+        PacketCatcher packetCatcher = new PacketCatcher(configReader.getSource());
+        packetCatcher.setNicName(configReader.getNetworkInterface());
         packetCatcher.process();
     }
 }

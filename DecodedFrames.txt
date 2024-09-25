@@ -5,27 +5,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -37,27 +38,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -69,27 +71,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -101,27 +104,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -133,27 +137,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -165,27 +170,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -197,27 +203,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -229,27 +236,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -261,27 +269,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -293,27 +302,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -325,27 +335,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -357,27 +368,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -389,27 +401,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -421,27 +434,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -453,27 +467,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -485,27 +500,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -517,27 +533,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -549,27 +566,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -581,27 +599,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -613,27 +632,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -645,27 +665,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -677,27 +698,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:09.088026463 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21703
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -709,27 +731,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:09.088026821 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088026 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255637
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255637
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -741,27 +764,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:09.088027358 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:09.088027 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21682
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255637
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255637
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:37 UTC
+
 
 
 
@@ -773,27 +797,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -805,27 +830,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -837,27 +863,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    12
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    0
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -869,27 +896,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -901,27 +929,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -933,27 +962,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    24
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    1
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -965,27 +995,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -997,27 +1028,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1029,27 +1061,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    48
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    2
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1061,27 +1094,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1093,27 +1127,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1125,27 +1160,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    96
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    3
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1157,27 +1193,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1189,27 +1226,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1221,27 +1259,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    192
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    4
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1253,27 +1292,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1285,27 +1325,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1317,27 +1358,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    384
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    5
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1349,27 +1391,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1381,27 +1424,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1413,27 +1457,28 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    768
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    6
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1445,27 +1490,28 @@ GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_107IO/LLN0$MU107_dataset
 GoID                :    NGrid_cable_3
-Timestamp           :    янв. 26, 2005 20:28:10.088068842 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088068 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21704
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   false
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   true
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1477,27 +1523,28 @@ GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_101IO/LLN0$MU101_dataset
 GoID                :    NGrid_cable_4
-Timestamp           :    янв. 26, 2005 20:28:10.088069319 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
 Boolean   :   true
-String   :   1100000000000
-Integer   :   1647255638
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
 Boolean   :   false
-String   :   0000000000000
-Integer   :   1647255638
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
 
 
 
@@ -1509,27 +1556,721 @@ GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
 TimeAllowedToLive   :    1500
 DatSet              :    ENMU_104IO/LLN0$MU104_dataset
 GoID                :    NGrid_section_breaker
-Timestamp           :    янв. 26, 2005 20:28:10.088069736 UTC
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:10.088069 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
 StNum               :    21683
 SqNum               :    7
 ConfRev             :    1
 NdsCom              :    false
 NumDatSetEntries    :    15
-Integer   :   8651523
-String   :   1100000000000
-Integer   :   1647255638
-Integer   :   25428739
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
-Integer   :   8651523
-String   :   0000000000000
-Integer   :   1647255638
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:38 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    12
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    0
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    12
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    0
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    12
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    0
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    24
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    1
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    24
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    1
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    24
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    1
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    48
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    2
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    48
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    2
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    48
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    2
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    96
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    3
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    96
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    3
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    96
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    3
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    192
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    4
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    192
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    4
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    192
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    4
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    384
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    5
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    384
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    5
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    384
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    5
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:01
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_107IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    768
+DatSet              :    ENMU_107IO/LLN0$MU107_dataset
+GoID                :    NGrid_cable_3
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21705
+SqNum               :    6
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   false
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   true
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:02
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_101IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    768
+DatSet              :    ENMU_101IO/LLN0$MU101_dataset
+GoID                :    NGrid_cable_4
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    6
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Boolean   :   true
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Boolean   :   false
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
+
+
+
+
+Destination         :    01:0C:CD:04:00:03
+Source              :    00:50:C2:4F:98:FA
+Interface           :    88b8
+GocbRef             :    ENMU_104IO/LLN0$GO$gcb01
+TimeAllowedToLive   :    768
+DatSet              :    ENMU_104IO/LLN0$MU104_dataset
+GoID                :    NGrid_section_breaker
+Timestamp           :    Timestamp: янв. 26, 2005 20:28:11.088061 UTC, Quality: Leap Second Known: false, Clock Failure: false, Clock not synchronized: false, Accuracy: Unspecified
+StNum               :    21684
+SqNum               :    6
+ConfRev             :    1
+NdsCom              :    false
+NumDatSetEntries    :    15
+Integer   :   0
+String   :   1100000000000 (Validity: Questionable; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   1
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+Integer   :   0
+String   :   0000000000000 (Validity: Good; Overflow: false; OutOfRange: false; BadReference: false; Oscillatory: false; Failure: false; OldData: false; Inconsistent: false; Inaccurate: false; Source: false; Test: false; OperatorBlocked: false; )
+Timestamp   :   мар. 14, 2022 11:00:39 UTC
+
 
 
 
